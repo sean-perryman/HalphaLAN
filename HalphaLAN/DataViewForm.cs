@@ -29,10 +29,9 @@ namespace HalphaLAN
             //Help Box
             helpBox = new HelpForm();
 
-            //Populate dataGridView1
+            //Initialize BindingSource
             bSource = new BindingSource();
-            MySQL_ToDatagridview();
-
+            
             // Populate field search box and set the default to last name
             searchFieldComboBox.Items.Add("Patient ID");
             searchFieldComboBox.Items.Add("First Name");
@@ -125,6 +124,11 @@ namespace HalphaLAN
             }
 
            
+        }
+
+        private void loadDataButton_Click(object sender, EventArgs e)
+        {
+            MySQL_ToDatagridview();
         }
     }
 }

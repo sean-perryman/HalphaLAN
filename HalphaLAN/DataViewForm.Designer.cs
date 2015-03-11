@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.clearButton = new System.Windows.Forms.Button();
             this.searchButton = new System.Windows.Forms.Button();
             this.searchFieldComboBox = new System.Windows.Forms.ComboBox();
@@ -44,16 +45,17 @@
             this.aboutHalphaLANToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.patientTableAdapter = new HalphaLAN.gseDataSetTableAdapters.patientTableAdapter();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.loadDataButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gseDataSet)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.loadDataButton);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.clearButton);
             this.panel1.Controls.Add(this.searchButton);
@@ -63,6 +65,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1213, 750);
             this.panel1.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(1, 33);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1210, 716);
+            this.dataGridView1.TabIndex = 6;
             // 
             // clearButton
             // 
@@ -170,13 +180,15 @@
             // 
             this.patientTableAdapter.ClearBeforeFill = true;
             // 
-            // dataGridView1
+            // loadDataButton
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(1, 33);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1210, 716);
-            this.dataGridView1.TabIndex = 6;
+            this.loadDataButton.Location = new System.Drawing.Point(1121, 3);
+            this.loadDataButton.Name = "loadDataButton";
+            this.loadDataButton.Size = new System.Drawing.Size(75, 23);
+            this.loadDataButton.TabIndex = 7;
+            this.loadDataButton.Text = "Load Data";
+            this.loadDataButton.UseVisualStyleBackColor = true;
+            this.loadDataButton.Click += new System.EventHandler(this.loadDataButton_Click);
             // 
             // DataViewForm
             // 
@@ -193,11 +205,11 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gseDataSet)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,6 +233,7 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aboutHalphaLANToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button loadDataButton;
     }
 }
 
