@@ -9,3 +9,14 @@ C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debu
 C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.DataViewForm.resources
 C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.AboutBox1.resources
 C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.HelpForm.resources
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.exe.config
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.exe
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.pdb
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.exe
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.pdb
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.csprojResolveAssemblyReference.cache
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.AboutBox1.resources
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.DataViewForm.resources
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.HelpForm.resources
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.Properties.Resources.resources
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.csproj.GenerateResource.Cache

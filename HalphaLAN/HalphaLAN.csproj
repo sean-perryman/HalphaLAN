@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,11 +51,11 @@
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataForm1.cs">
+    <Compile Include="DataViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataForm1.Designer.cs">
-      <DependentUpon>DataForm1.cs</DependentUpon>
+    <Compile Include="DataViewForm.Designer.cs">
+      <DependentUpon>DataViewForm.cs</DependentUpon>
     </Compile>
     <Compile Include="gseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -72,8 +73,8 @@
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataForm1.resx">
-      <DependentUpon>DataForm1.cs</DependentUpon>
+    <EmbeddedResource Include="DataViewForm.resx">
+      <DependentUpon>DataViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HelpForm.resx">
       <DependentUpon>HelpForm.cs</DependentUpon>
