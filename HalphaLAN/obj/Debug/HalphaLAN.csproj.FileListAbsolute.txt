@@ -1,0 +1,9 @@
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.exe.config
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.exe
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.pdb
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.csprojResolveAssemblyReference.cache
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.Properties.Resources.resources
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.csproj.GenerateResource.Cache
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.exe
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.pdb
+C:\Users\Sean\documents\visual studio 2013\Projects\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.DataViewForm.resources
