@@ -52,10 +52,12 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.patientTableAdapter = new HalphaLAN.gseDataSetTableAdapters.patientTableAdapter();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.searchField = new System.Windows.Forms.TextBox();
             this.searchFieldComboBox = new System.Windows.Forms.ComboBox();
             this.searchButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
+            this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutHalphaLANToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).BeginInit();
@@ -68,7 +70,7 @@
             this.panel1.Controls.Add(this.clearButton);
             this.panel1.Controls.Add(this.searchButton);
             this.panel1.Controls.Add(this.searchFieldComboBox);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.searchField);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Location = new System.Drawing.Point(0, 27);
             this.panel1.Name = "panel1";
@@ -98,8 +100,9 @@
             this.dataGridView1.DataSource = this.patientBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(3, 31);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dataGridView1.Size = new System.Drawing.Size(1183, 719);
+            this.dataGridView1.Size = new System.Drawing.Size(1207, 719);
             this.dataGridView1.TabIndex = 0;
             // 
             // patientIDDataGridViewTextBoxColumn
@@ -218,6 +221,9 @@
             // 
             // helpToolStripMenuItem
             // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem1,
+            this.aboutHalphaLANToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
@@ -234,12 +240,12 @@
             // 
             this.patientTableAdapter.ClearBeforeFill = true;
             // 
-            // textBox1
+            // searchField
             // 
-            this.textBox1.Location = new System.Drawing.Point(5, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 20);
-            this.textBox1.TabIndex = 1;
+            this.searchField.Location = new System.Drawing.Point(5, 4);
+            this.searchField.Name = "searchField";
+            this.searchField.Size = new System.Drawing.Size(156, 20);
+            this.searchField.TabIndex = 1;
             // 
             // searchFieldComboBox
             // 
@@ -257,6 +263,7 @@
             this.searchButton.TabIndex = 4;
             this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // clearButton
             // 
@@ -266,6 +273,21 @@
             this.clearButton.TabIndex = 5;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
+            // helpToolStripMenuItem1
+            // 
+            this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(171, 22);
+            this.helpToolStripMenuItem1.Text = "Help";
+            this.helpToolStripMenuItem1.Click += new System.EventHandler(this.helpToolStripMenuItem1_Click);
+            // 
+            // aboutHalphaLANToolStripMenuItem
+            // 
+            this.aboutHalphaLANToolStripMenuItem.Name = "aboutHalphaLANToolStripMenuItem";
+            this.aboutHalphaLANToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.aboutHalphaLANToolStripMenuItem.Text = "About HalphaLAN";
+            this.aboutHalphaLANToolStripMenuItem.Click += new System.EventHandler(this.aboutHalphaLANToolStripMenuItem_Click);
             // 
             // DataViewForm
             // 
@@ -276,6 +298,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "DataViewForm";
             this.Text = "HalphaLAN for Golden State Eye Center";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -319,7 +342,9 @@
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.ComboBox searchFieldComboBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox searchField;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aboutHalphaLANToolStripMenuItem;
     }
 }
 
