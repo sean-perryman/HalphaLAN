@@ -20,3 +20,7 @@ C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.DataViewF
 C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.HelpForm.resources
 C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.Properties.Resources.resources
 C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.csproj.GenerateResource.Cache
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.exe.manifest
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.application
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.exe.manifest
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.application
