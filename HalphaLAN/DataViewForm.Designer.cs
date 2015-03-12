@@ -45,7 +45,6 @@
             this.aboutHalphaLANToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.patientTableAdapter = new HalphaLAN.gseDataSetTableAdapters.patientTableAdapter();
-            this.loadDataButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).BeginInit();
@@ -55,7 +54,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.loadDataButton);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.clearButton);
             this.panel1.Controls.Add(this.searchButton);
@@ -180,16 +178,6 @@
             // 
             this.patientTableAdapter.ClearBeforeFill = true;
             // 
-            // loadDataButton
-            // 
-            this.loadDataButton.Location = new System.Drawing.Point(1121, 3);
-            this.loadDataButton.Name = "loadDataButton";
-            this.loadDataButton.Size = new System.Drawing.Size(75, 23);
-            this.loadDataButton.TabIndex = 7;
-            this.loadDataButton.Text = "Load Data";
-            this.loadDataButton.UseVisualStyleBackColor = true;
-            this.loadDataButton.Click += new System.EventHandler(this.loadDataButton_Click);
-            // 
             // DataViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -233,7 +221,6 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aboutHalphaLANToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button loadDataButton;
     }
 }
 
