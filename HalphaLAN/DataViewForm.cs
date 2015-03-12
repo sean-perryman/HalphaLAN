@@ -41,8 +41,7 @@ namespace HalphaLAN
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'gseDataSet.patient' table. You can move, or remove it, as needed.            
-            this.patientTableAdapter.Fill(this.gseDataSet.patient);
+            MySQL_ToDatagridview();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -96,7 +95,7 @@ namespace HalphaLAN
 
         private void MySQL_ToDatagridview()
         {
-            string connString = "server=192.168.1.89;" +
+            string connString = "server=192.168.1.99;" +
                                 "uid=gse;" +
                                 "pwd=gsepassword;" +
                                 "database=gse_pt;";
@@ -126,9 +125,5 @@ namespace HalphaLAN
            
         }
 
-        private void loadDataButton_Click(object sender, EventArgs e)
-        {
-            MySQL_ToDatagridview();
-        }
     }
 }
