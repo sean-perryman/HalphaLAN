@@ -25,3 +25,4 @@ C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\bin\Debug\HalphaLAN.applicati
 C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.exe.manifest
 C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.application
 C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\bin\Debug\MySql.Data.dll
+C:\Users\sperryman\Programming\HalphaLAN\HalphaLAN\obj\Debug\HalphaLAN.ConnectionSettings.resources

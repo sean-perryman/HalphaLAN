@@ -26,7 +26,7 @@ namespace HalphaLAN.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=GSESERVER\\SQLEXPRESS;Initial Catalog=gse;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=192.168.1.90;uid=gse;pwd=gsepassword;database=gse_pt;")]
         public string gseConnectionString {
             get {
                 return ((string)(this["gseConnectionString"]));

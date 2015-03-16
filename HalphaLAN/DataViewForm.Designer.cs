@@ -45,6 +45,7 @@
             this.aboutHalphaLANToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.patientTableAdapter = new HalphaLAN.gseDataSetTableAdapters.patientTableAdapter();
+            this.connectionSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).BeginInit();
@@ -131,6 +132,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.connectionSettingsToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -139,7 +141,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -177,6 +179,13 @@
             // patientTableAdapter
             // 
             this.patientTableAdapter.ClearBeforeFill = true;
+            // 
+            // connectionSettingsToolStripMenuItem
+            // 
+            this.connectionSettingsToolStripMenuItem.Name = "connectionSettingsToolStripMenuItem";
+            this.connectionSettingsToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.connectionSettingsToolStripMenuItem.Text = "Connection Settings";
+            this.connectionSettingsToolStripMenuItem.Click += new System.EventHandler(this.connectionSettingsToolStripMenuItem_Click);
             // 
             // DataViewForm
             // 
@@ -221,6 +230,7 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aboutHalphaLANToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ToolStripMenuItem connectionSettingsToolStripMenuItem;
     }
 }
 

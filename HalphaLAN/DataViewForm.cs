@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Data.SqlClient;
+using System.Configuration;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 using MySql.Data.Common;
@@ -17,6 +17,7 @@ namespace HalphaLAN
     {
         private Form aboutBox;
         private Form helpBox;
+        private Form connectionSettings;
         private BindingSource bSource;
 
         public DataViewForm()
@@ -28,6 +29,9 @@ namespace HalphaLAN
 
             //Help Box
             helpBox = new HelpForm();
+
+            //Connection Settings
+            connectionSettings = new ConnectionSettings();
 
             //Initialize BindingSource
             bSource = new BindingSource();
@@ -95,10 +99,8 @@ namespace HalphaLAN
 
         private void MySQL_ToDatagridview()
         {
-            string connString = "server=192.168.1.99;" +
-                                "uid=gse;" +
-                                "pwd=gsepassword;" +
-                                "database=gse_pt;";
+            string connString = HalphaLAN.Properties.Settings.Default.gseConnectionString;
+
             MySqlConnection conn;
            
             try {
@@ -123,6 +125,11 @@ namespace HalphaLAN
             }
 
            
+        }
+
+        private void connectionSettingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            connectionSettings.Show();
         }
 
     }
